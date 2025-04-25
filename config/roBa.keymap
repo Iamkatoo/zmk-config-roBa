@@ -53,12 +53,12 @@
 
         browser_tab {
             bindings = <&kp LC(TAB)>;
-            key-positions = <11 12>;
+            key-positions = <12 13>;
         };
 
         browser_shi_tab {
             bindings = <&kp LC(LS(TAB))>;
-            key-positions = <12 13>;
+            key-positions = <12 11>;
         };
     };
 
