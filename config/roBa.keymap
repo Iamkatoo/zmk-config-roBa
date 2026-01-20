@@ -78,7 +78,7 @@
         password_input: password_input {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(NUMBER_2) &kp LS(NUMBER_3) &kp LS(NUMBER_4) &kp LS(E) &kp LS(S) &kp LS(W) &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp E &kp S &kp W &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4>;
+            bindings = <&kp LG(HASH) &kp LS(DOLLAR) &kp LS(PERCENT) &kp LS(R) &kp LS(D) &kp LS(E) &kp NUMBER_3 &kp NUMBER_4 &kp N5 &kp R &kp D &kp E &kp NUMBER_3 &kp NUMBER_4 &kp N5>;
             label = "PASSWORD_INPUT";
         };
 
@@ -195,7 +195,7 @@
 &none             &kp LC(LG(LEFT))      &kp LC(LA(UP_ARROW))  &kp LG(LC(RIGHT))      &bt0_steezy_core                              &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
 &bt0_steezy_core  &kp LC(LEFT)          &kp LA(LG(C))         &kp LC(RIGHT)          &bt1_win          &none      &bt3_steezy_air  &kp F4  &kp F5  &kp F6  &none    &kp F12
 &none             &kp LC(LS(LG(LEFT)))  &none                 &kp LS(LC(LG(RIGHT)))  &bt2_iPad         &none      &bt4_my_steezy   &kp F1  &kp F2  &kp F3  &none    &none
-&bt BT_CLR_ALL    &bt BT_CLR            &none                 &none                  &none             &none      &none            &none                            &none
+&bt BT_CLR        &none                 &none                 &none                  &none             &none      &none            &none                            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
@@ -206,7 +206,7 @@
 &none             &none         &kp LG(UP_ARROW)  &none          &bt0_steezy_core                           &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
 &bt0_steezy_core  &kp LG(LEFT)  &kp LG(DOWN)      &kp LG(RIGHT)  &bt1_win          &none      &bt BT_SEL 3  &kp F4  &kp F5  &kp F6  &none    &kp F12
 &none             &none         &none             &none          &bt2_iPad         &none      &bt BT_SEL 4  &kp F1  &kp F2  &kp F3  &none    &none
-&bt BT_CLR_ALL    &bt BT_CLR    &none             &none          &none             &none      &none         &none                            &none
+&bt BT_CLR        &none         &none             &none          &none             &none      &none         &none                            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
