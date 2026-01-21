@@ -78,7 +78,7 @@
         password_input: password_input {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(HASH) &kp LS(DOLLAR) &kp LS(PERCENT) &kp LS(R) &kp LS(D) &kp LS(E) &kp NUMBER_3 &kp NUMBER_4 &kp N5 &kp R &kp D &kp E &kp NUMBER_3 &kp NUMBER_4 &kp N5>;
+            bindings = <&kp HASH &kp LS(DOLLAR) &kp LS(PERCENT) &kp LS(R) &kp LS(D) &kp LS(E) &kp NUMBER_3 &kp NUMBER_4 &kp N5 &kp R &kp D &kp E &kp NUMBER_3 &kp NUMBER_4 &kp N5>;
             label = "PASSWORD_INPUT";
         };
 
